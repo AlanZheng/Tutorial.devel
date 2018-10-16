@@ -20,7 +20,7 @@ State the requirements the user needs in order to follow this tutorial.
 #### Tutorial Contents
 1. To verify if your vim enable python3 by run: **vim --version**, it will output below information, if you see **+python3**, that means your vim enabled python3, if you see **-python3**, that means you need recompile vim from source code to enable python3. I verified vim the distribution of CentOS e17, it doesn't enable python3. So I recompiled the vim to enable python3.
 
-   ![1539689296454](https://github.com/AlanZheng/Tutorial.devel/blob/master/vim_version.png)
+   ![vim_version](https://github.com/AlanZheng/Tutorial.devel/blob/master/vim_version.png)
 
 2. Get the vim source code from : https://github.com/vim/vim by below command:
 
@@ -36,7 +36,7 @@ State the requirements the user needs in order to follow this tutorial.
     ```
     Then copy/move its content in your ~/.vim/ directory. You should call :helptags ~/.vim/doc in vim to generate the necessary help tags, after that, to run :help vdebug in vim, if you see something like below, that means your vdebug worked well with vim.
 
-    ![1539691265468](https://github.com/AlanZheng/Tutorial.devel/blob/master/vdebug_doc.png)
+    ![vdebug_doc](https://github.com/AlanZheng/Tutorial.devel/blob/master/vdebug_doc.png)
 
 4. Add below code into your ~/.vimrc 
     ```
@@ -64,11 +64,11 @@ State the requirements the user needs in order to follow this tutorial.
 
 6. Open a php file by vim, then press F10 to set a break point to cursor line, then press F5 to let vdebug waiting for connection as below.
 
-    ![1539692284118](https://github.com/AlanZheng/Tutorial.devel/blob/master/vdebug_break.png)
+    ![vdebug_break](https://github.com/AlanZheng/Tutorial.devel/blob/master/vdebug_break.png)
 
 7. After that to access this php from browser(firefox/chrome), the  xdebug should work now, and you will able to see debug status in the vim.
 
-    ![1539696328484](https://github.com/AlanZheng/Tutorial.devel/blob/master/vdebug_debug.png)
+    ![vdebug_debug](https://github.com/AlanZheng/Tutorial.devel/blob/master/vdebug_debug.png)
 
     If there is anything won't work for your case, please contact me freely.
 
